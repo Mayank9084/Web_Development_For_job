@@ -1,0 +1,18 @@
+thead{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+tfoot{
+    background-color: rgba(235, 164, 164, 0.267);
+}
+table{
+    border: 2px solid rgb(29, 12, 10);
+}
+td{
+    border: 2px solid rgb(24, 126, 95) ;
+}
+ul{
+    border: 2px solid green;
+}
+ol{
+    border: 2px solid green;
+}
