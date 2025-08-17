@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            background-color: rgb(151, 202, 68);
+        }
+
+        .box1 {
+            color: rgb(73, 59, 73);
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+        /* Maring padding k andr vo vohe select krta hai jiski margin value jyada hogi dono ko add nhi krega jse iss program me box1 and box2 me  box2 ka margin 35px hai toh margin padding 35px rhegi (dono ka sum nhi hoga)*/
+        .box2 { 
+            color: rgb(207, 26, 26);
+            padding: 10px;
+            margin: 35px;
+            border: 2px solid rgb(19, 13, 13);
+            height: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">I am a Box</div>
+    <div class="box box2">I am another Box</div>
+</body>
+
+</html>
