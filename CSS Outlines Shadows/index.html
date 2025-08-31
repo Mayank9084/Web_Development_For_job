@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 2px solid black;
+            padding: 34px;
+            box-shadow: 5px 6px 15px 5px #641111c9;
+        }
+        .text-element ol li{ 
+            text-shadow: 3px 4px 5px #1c1515;
+            outline: 2px solid black;
+            border: 2px solid green;
+            outline-offset: 1px;
+         }
+         .custom-list li{
+                   text-shadow: 3px 4px 5px #1c1515;
+                    outline: 2px solid black;
+                    border: 2px solid green;
+                    outline-offset: 1px;
+                }
+    </style>
+</head>
+<body>
+    <div class="box">
+        I am a box
+    </div>
+    <p class="text-element">
+        <ol class="custom-list">
+            Differences between Outlines and Borders:While both can visually appear similar, outlines differ from borders in a few ways:
+             <li>Position: Outlines don't take up space; they're drawn around the element, outside of any border.</li>
+             <li>Offset: Using the outline-offset property, you can set the space between an outline and the edge or border of an element.</li>
+             <li>Width: Borders can have varying widths on different sides, outlines have a uniform width.</li>
+             <li>Rounded Corners: Borders can have rounded corners using border-radius, while outlines generally cannot.</li>
+        </ol>
+    </p>
+</body>
+</html>
