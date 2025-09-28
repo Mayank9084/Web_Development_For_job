@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Exercise</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap');
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: gray;
+            padding: 40px;
+            display: flex;
+        }
+
+        .card {
+            background-image: url("https://cdn.pixabay.com/photo/2023/03/19/12/46/hd-wallpaper-7862496_640.jpg");
+            /* Your image */
+            background-size: cover;
+            /* Make image cover whole card */
+            background-position: center;
+            /* Center the image */
+            width: 194px;
+            height: 350px;
+            border-radius: 7px;
+            margin: 4px;
+
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 7px;
+        }
+
+        .content {
+            text-align: left;
+            padding: 13px;
+            color: rgb(33 161 255);
+            font-family: "Yuji Boku", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+
+        }
+
+        .content h1 {
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+        }
+
+        .capsules {
+            padding: 0 30px;
+        }
+
+        .capsules span {
+            color: #ffffff;
+            border: 1px solid #3d84ff;
+            padding: 0 1px;
+            border-radius: 5px;
+            font-size: 15px;   
+        }
+
+        .button{
+            text-align: center;
+        }
+        .button{
+            padding: 3px;
+            /* border-radius: 8px; */
+            background-color: rgb(8, 8, 8);
+            color: rgb(48, 180, 180);
+            font-size: 10px;
+            margin-top: 7px;
+            border: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="image">
+            <img width="184" src="https://images3.alphacoders.com/136/thumb-350-1366567.webp" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Hashira</span>
+            <span>Upper Rank</span>
+        </div>
+        <div class="content">
+            <h1>Gyomei Himejima</h1>
+            "We are proud to live and die as human beings. Don't act like your worthless ideas are supreme and force
+            them on others."
+        </div>
+        <div class="button">
+            <button>Submit</button>
+        </div>
+    </div>
+
+     <div class="card">
+
+        <div class="image">
+            <img width="184" src="https://wallpaperaccess.com/full/9403184.jpg" alt="">
+        </div>
+
+        <div class="capsules">
+            <span>Hashira</span>
+            <span>Upper Rank</span>
+        </div>
+        <div class="content">
+            <h1>Sanemi Shinazugawa</h1>
+            "I know how unfair the world is... because good people... die one after another."
+        </div>
+        <div class="button">
+            <button>Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
