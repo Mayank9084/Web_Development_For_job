@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 Multicolor website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Yuji+Boku&display=swap');
+
+        :root{
+            --primary-color: #2f0e4c;
+            --text-color: rgb(193, 231, 231);
+            --secondary-color: #c2bac9;
+        }
+
+        body{
+            background-color: var(--secondary-color);
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: "Yuji Boku", serif;
+        }
+        nav{
+            background-color: var(--primary-color);
+            padding: 12px 0;
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+            color: var(--text-color)
+        }
+
+        ul li a{
+            color: var(--text-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contacts Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
