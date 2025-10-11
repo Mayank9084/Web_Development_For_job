@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: cadetblue;
+            height: 80vh;
+            width: 30vw;
+        }
+
+        .box{
+            width: 34px;
+            height: 45px;
+            /* background-color: blue; */
+            /* animation-name: mayankDonKaAnimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            animation-delay: 2s; */
+            /* animation-direction: reverse; */
+            animation: mayankDonKaAnimation 3s ease-in-out 1s infinite;
+        }
+
+        @keyframes mayankDonKaAnimation{
+            from{
+                background-color: red;
+            }
+            to{
+                background-color: turquoise;
+                transform: translateX(1000px);
+                
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
